@@ -1,0 +1,186 @@
+
+ header{}
+ .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    background-color: #535D69;
+    height: 44px;
+ }
+ .logo1{
+     margin-left: 160px;
+     }
+
+ .logo1 h4{
+     color: white;
+     font-family: sans-serif;
+     font-size: 17px;
+ }
+ .socialicon{
+    margin-left: 607px;
+
+ }
+ .socialicon i{
+     margin: 0 10px;
+     float: left;
+ }
+ .socialicon i:last-child{
+     margin-right: 20px;
+ }
+ .fa-search{
+     color: white;
+ }
+ .fa-linkedin{
+    color: white;
+ }
+ .fa-twitter{
+    color: white;
+
+ }
+ .fa-facebook{
+    color: white;
+ }
+ .button{
+     
+    background-color: rgb(185, 20, 20);
+     padding: 11px 44px;
+     font-size: 17px;
+     font-weight: bold;
+     word-spacing: 10px;
+     transition: .3s linear;
+     cursor: pointer;
+     margin-right: 150px;
+     
+ }
+ .button:hover{
+    background-color: maroon;
+}
+.button:active{
+    background-color: orangered;
+}
+ .button a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: .2s linear;
+ }
+ .button a:hover{
+     background-color: palegreen;
+ }
+ .button a:active{
+     background-color: springgreen;
+ }
+
+     
+ 
+
+
+ 
+
+ 
+ .container{
+     margin: 0 auto;
+     width: 80%;
+     
+     overflow: hidden;
+ }
+ .logo{
+     width: 18%;
+     float: left;
+    
+   
+ }
+ .logo img{
+     width: 100%;
+ }
+ .menu{
+     width: 70%;
+     float: right;
+     
+     
+ }
+ .menu ul{
+     float: right;
+ }
+ .menu ul li{
+     list-style: none;
+     float: left;
+     
+ }
+ .menu ul li a{
+     text-decoration: none;
+     font-family: sans-serif;
+     font-size: 17px;
+     font-weight: bold;
+     color:#535D69;
+     margin: 10px 20px;
+     display: inline-block;
+ }
+ .menu ul li a:hover{
+     color: firebrick;
+
+ }
+ .menu ul li a:last-child{
+     margin-right: 0;
+ }
+ .maincontent{
+     width: 100%;
+ }
+.banner{
+    background-image: url("images/bannar.jpg");
+    
+}
+.banner img{
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    display: block;
+}
+.worksection{
+    width: 80%;
+    float: right;
+    margin-top: 70px;
+    margin-right: -8px;
+   
+   
+    
+
+}
+.worktext{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.worktext h2{
+    margin: 27px 164px;
+    font-family: sans-serif;
+}
+
+   
+
+.p1{    
+    margin-left: -50px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.p2{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 102px;
+    
+    margin-top: -11px;
+}
+
+.workimg{
+   
+    width: 80%;
+    margin-top: 41px;
+    margin-left: 66px;
+    padding: 23px;
+}
+.workimg img{
+    height: 221px;
+    
+}
